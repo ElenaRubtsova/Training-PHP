@@ -1,13 +1,14 @@
 <?php
 	// работа с API
 	// (https://openweathermap.org/)
-	// https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=b36dabcfdca44083202c1d7b0862a8f6
+	// https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=
 
 	$url = 'https://api.openweathermap.org/data/2.5/weather';
 	$options = array(
-		'lat' => '44.34',
-		'lon' => '10.99',
-		'appid' => 'b36dabcfdca44083202c1d7b0862a8f6'
+		'lat' => '52.59100612008015',
+		'lon' => '39.558274893739615',
+        //'units' => 'metric',
+		'appid' => ''
 	);
 
 	$ch = curl_init();
